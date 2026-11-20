@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Menu — Pentastry</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Saint-Germain-des-Prés+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER (sama dengan index) ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-area">
+        <img src="/images/LOGO PENTASTRY.png" class="logo-img">
+        <span class="site-name">Pentastry</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="concept.html" class="nav-link">Concept</a>
+        <a href="menu.html" class="nav-link active">Menu</a>
+        <a href="team.html" class="nav-link">Team Portfolio</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#" class="btn btn-dark btn-sm">Book a Table</a>
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuArH2OfIeKC3urfV5Ucl_ptgVT9e3dfRz9rJ1NcsgWROfFL8EzUDVfXTkd7-eQlVLS0nSqu3BmFm_ywWmAc0JexeHmgT2_9K1IwIc_l44JARxcDjVYLYkEK6lUkTK45CQOmg5Kha3o_csmkQXrL5KqYGMek-3vr2RZiHwP0Fqa_ktvvHidp4OM7EpLVUqIFrJSv6aT-_-81oAyBoery5mLiPEn9sq6lmro9S_so9xY" alt="Profile" class="avatar">
+      </div>
+    </div>
+  </header>
+
+  <main class="menu-page">
+    <!-- Ambient glow -->
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+
+    <!-- ============ PAGE HEADER ============ -->
+    <header class="menu-page-header">
+      <div class="eyebrow-pill">
+        <span class="material-symbols-outlined">auto_awesome</span>
+        <span>Fall-Autumn Atelier Édition</span>
+      </div>
+
+      <h1 class="menu-page-title">The Seasonal Collection</h1>
+
+      <p class="menu-page-desc">
+        Curated artisan pastries and signature botanical beverages crafted daily by our certified professional chefs and baristas.
+      </p>
+
+      <div class="allergen-pills">
+        <span class="allergen-pill"><span class="dot dot-secondary"></span> GF · Gluten-Free</span>
+        <span class="allergen-pill"><span class="dot dot-green"></span> NF · Nut-Free</span>
+        <span class="allergen-pill"><span class="dot dot-brown"></span> DF · Dairy-Free</span>
+        <span class="allergen-pill allergen-pill-gold">
+          <span class="material-symbols-outlined">workspace_premium</span> Chef's Picks
+        </span>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all" type="button">All Creations</button>
+        <button class="filter-btn" data-filter="desserts" type="button">Artisan Desserts (5)</button>
+        <button class="filter-btn" data-filter="beverages" type="button">Botanical &amp; Coffee Brews (5)</button>
+        <button class="filter-btn" data-filter="sets" type="button">Chef's Tasting Sets</button>
+      </div>
+    </header>
+
+    <!-- ============ MENU CONTENT ============ -->
+    <div class="menu-content">
+
+      <!-- ============ ARTISAN DESSERTS ============ -->
+      <section class="menu-section" data-category="desserts" id="category-desserts">
+        <div class="menu-collection-header">
+          <div>
+            <div class="collection-eyebrow">
+              <span class="material-symbols-outlined">bakery_dining</span>
+              <span>Collection N° 01 · Pâtisseries </span>
+            </div>
+            <h2 class="collection-title">Artisan Pastry, Cake, and Desserts</h2>
+          </div>
+          <p class="collection-desc">
+          </p>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- Featured -->
+          <article class="menu-card menu-card-featured">
+            <div class="menu-card-media">
+              <img src="/images/Doux waffle.jpg" alt="Velvet Bloom Berry Tarte">
+              </span>
+              <span class="menu-badge-bottom">NF Available</span>
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Berry Bliss Waffle</h3>
+                <div class="price-tag">Rp 45.000</div>
+                <p class="menu-card-desc">
+                  Crispy outside-soft inside batter, sweet vanilla mousseline, organic berries, dusted with powdered sugar.
+                </p>
+                <div class="menu-card-tags">
+                  <span>Strawberry</span>
+                  <span>Blueberry</span>
+                  <span>Raspberry</span>
+                  <span>+ Sliced Almond</span>
+                  <span>+ Maple Syrup</span>
+                </div>
+              </div>
+              <div class="menu-card-footer">
+                <button class="add-to-order-btn" data-name="Berry Bliss Waffle" data-price="45000" type="button">
+                  <span class="material-symbols-outlined">add_shopping_cart</span>
+                  <span>Add to Order</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gold Lava Cake -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_plp1OOd45EvegbloKBCmhlW0TRawVnFemV0PrFmpI1fikzVf_93B6kTzj5BwGBl5b8AJ6fgag6rncNio4d5BYfpuPgOLBIrUatY8vbbFRQQtCaI9O6d27UUVZPT7FKBKTDCiLdbKkhaFkIbw5Zfl6_No2F5uhw2yyLHT1bAYsCmdyEQL-RNknPGDTYWG2yaWr6R5_lO2hOuk6bRWUkE-MRrazvOQZ1w4LwDKarw" alt="Midnight Gold Lava Cake">
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Gold Lava Cake</h3>
+                <div class="price-tag">Rp 42.000</div>
+                <p class="menu-card-desc">
+                  72% Valrhona dark chocolate ganache, soft vanilla gelato by Malio Gelato, sprinkled with 24k edible gold.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <button class="add-to-order-btn" data-name="Gold Lava Cake" data-price="42000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Matcha Zenith -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4GNeSpOkDX3G4VwmOglw-2h4ctleut2Ns00v7nqvvhvyrh-24i11SiBDMe1qeHi91zciH4sS04kuQhBzMvqit4-EWZHQHQvjQ84yTzZZN5ezlD7TnEJSX6gEK1ihcJyYffn-1ui8sx1BN2PfEgpkXYZYTKY4wui_u5xMYvqIISqhriOb_sePb19kxVIwq1hfnNE0cJQGG9pczIViFEDLhsYr6prgAPGtB38K2Bm4" alt="Matcha Zenith Cheesecake">
+              <span class="menu-badge menu-badge-tertiary"> Chef's Picks</span>
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Matcha Zenith Cheesecake</h3>
+                <div class="price-tag">Rp 55.000</div>
+                <p class="menu-card-desc">
+                  Ceremonial grade Uji matcha, silken Basque cream cheese, and roasted black sesame crust.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <span class="menu-card-note">Kyoto Uji Matcha</span>
+                <button class="add-to-order-btn" data-name="Matcha Zenith Cheesecake" data-price="55000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Caramelized Cloud Soufflé -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnTh-Mu2jThHmAmnlRRh5kgxBS_OF7ojKQp8gzNBxDemkkewKoRlE7yfVK03uQBVci8GTJclcDf-xHglAkvQe5YVNAwVI7p098SLzz_bHXGTMvwnj22y_9wUsW9jO7AceDVEKAg-nNtGJOFFJadQ3nQRurmm51_QYI7QHSspUk2RQCU4uUcK76BORtCCOKMh-kpcKUf2sT2Zuj1OT1tUhsxgZwhxV7klSjhjhc1eY" alt="Caramelized Cloud Soufflé">
+              <span class="menu-badge menu-badge-tertiary">Chef's Picks</span>
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Caramelized Cloud Soufflé</h3>
+                <div class="price-tag">Rp 50.000</div>
+                <p class="menu-card-desc">
+                  Airy vanilla bean soufflé paired with warm salted fleur de sel caramel pour-over.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <span class="menu-card-note">Salted Caramel Sauce</span>
+                <button class="add-to-order-btn" data-name="Caramelized Cloud Soufflé" data-price="50000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pistachio Mille-Feuille -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXfd2pE68sKxL34ojt6KGqJsHhmh4B3elaQouyBq8wua21xNCiamJl_SSZPIjuvIwtYvucCQH7TRMQUzJ_HNi0e03cyYZU28Hu_Vy2b9RjB1qtMnl00E462NuOhS8zm6HsGK0oB07ECCq5XRglIvE1A3zKdUin7sYYB72HIQcDI4DTk6P1BtLi6h94OOan0NyGOeyFtYzjLr_aDBDdD4l5UBWrchQM6DHUPqj91nU" alt="Pistachio Paradise Mille-Feuille">
+              <span class="menu-badge menu-badge-tertiary">Chef's Picks</span>
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Pistachio Paradise Mille-Feuille</h3>
+                <div class="price-tag">Rp 58.000</div>
+                <p class="menu-card-desc">
+                  Caramelized puff pastry layers, Bronte pistachio praline, and whipped white chocolate chantilly.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <span class="menu-card-note">Pistachio Pastry</span>
+                <button class="add-to-order-btn" data-name="Pistachio Paradise Mille-Feuille" data-price="58000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Divider -->
+      <div class="section-divider-with-label">
+        <div class="divider-line"></div>
+        <div class="divider-label">
+          <span class="material-symbols-outlined">local_cafe</span>
+          <span>Botanical &amp; Specialty Infusions</span>
+        </div>
+      </div>
+
+      <!-- ============ BEVERAGES ============ -->
+      <section class="menu-section" data-category="beverages" id="category-beverages">
+        <div class="menu-collection-header">
+          <div>
+            <div class="collection-eyebrow">
+              <span class="material-symbols-outlined">local_cafe</span>
+              <span>Collection N° 02 · Beverages</span>
+            </div>
+            <h2 class="collection-title">Botanical &amp; Coffee Brews</h2>
+          </div>
+          </p>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- Rose Quartz Milk Tea -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_GcpBFO4F_5Plcld7NYO7PGs801WIKnHOnpIGMntIniLjRpw9tqV32b0a-JBu9WKN3fFjOqanD7zqOvSnB4bWvaU_pEL97yvK8TlG0Cm_Ib_eww4lWKpoItPt3GjDW_5i0Y1hFJFPqcNsQ-pvq9g3h-tUOrxGJize2xpSYigtRK-LRG0P9QyKSXfbqwRXCJmEf0c994EVr1dJO01tTLjn98pNJsP5x68ukBzJ2wI" alt="Rose Quartz Milk Tea">
+              <span class="menu-badge menu-badge-tertiary">Barista's Picks</span>
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Rose Quartz Milk Tea</h3>
+                <div class="price-tag">Rp 35.000</div>
+                <p class="menu-card-desc">
+                  Organic Ceylon black tea, French rose water, oat milk foam, and crystallized sugar pearls.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <span class="menu-card-note">DF · Oat Milk Base</span>
+                <button class="add-to-order-btn" data-name="Rose Quartz Milk Tea" data-price="35000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sparkling Citrus Espresso -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ2hEEdA1RKAkGrcNPSeO-mUJ4_04ZGd-gQ3A879kua8J4z4EKc2zSpNDlXj3RaoaLHaq72JQCAw4zCYFYQmFKbFp69APeywxiffFTYuYfgzaKMypeyMe7n86GJVcNS2HowXnhN5ZmpHPYQvEeZcRJGoLiIB5IqYsrbIPTd_3xgO5d_NTUvwBNV54oevW47wYBX9GLGv7z2cxKg0EzsDGu7Q08gYG2ACgz4wInM58" alt="Sparkling Citrus Espresso">
+              <span class="menu-badge menu-badge-tertiary">Barista's Picks</span>
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Sparkling Citrus Espresso</h3>
+                <div class="price-tag">Rp 30.000</div>
+                <p class="menu-card-desc">
+                  Single origin Flores espresso shot over tonic water, candied yuzu peel, and fragrant rosemary sprig.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <span class="menu-card-note">Strong but  Refreshing</span>
+                <button class="add-to-order-btn" data-name="Sparkling Citrus Espresso" data-price="30000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Lavender Cloud Matcha -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUknoLYQlPreW-JgBy4YxNo7PO0z5nuHiZBA7bmEMe8vJMfAG0jMKEo3H4skXezDwqMdYSQydx3A2Fuy0JMNVSNT0IDlVyXAqBfxXyMq-_2rn4F_lngH4a2USmTUc9HYGB-gD7WY0Vzj1Wtsn0fCfT5_fgsUquntMy_eMjdC_cdwqiSqYul7zwq3-WqRoSw9rJ1JfJCmtZFROmw1-RwZkxlhx7SqszlLUhpZOtEmE" alt="Lavender Cloud Matcha Latte">
+              <span class="menu-badge menu-badge-tertiary">Barista's Picks</span>
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Lavender Cloud Matcha Latte</h3>
+                <div class="price-tag">Rp 42.000</div>
+                <p class="menu-card-desc">
+                  Whisked Ippodo's Sayaka ceremonial grade matcha powder, infused French lavender cold foam, and wild clover blossom honey.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <span class="menu-card-note">Ceremonial Grade Matcha</span>
+                <button class="add-to-order-btn" data-name="Lavender Cloud Matcha Latte" data-price="42000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Black Rosella Infused Brew -->
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3PFaQHPtof9bUdlMFrb6yusgoZN-zIQl5M3JtkrstajXW1rzyeCT8XQzTXUofNq-cinkORfMOpAjEOUjvt59NVawI_ni3UzF5EGpv6QqRIttIpNm3Z0AEqBlARpEChYg9W2XPF8U4xyZdudkHAPZZw4e0r31S85_yiwhXxQFxOkL-ivIVbEhr476F-0Bk76AAEtYBmJR-bN-QPUJHnTIbx4HfQiTKfbuqQ3fCt2A" alt="Berry Bliss Infused Brew">
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Black Rosella Infused Brew</h3>
+                <div class="price-tag">Rp 30.000</div>
+                <p class="menu-card-desc">
+                  Earthy ruby-red infusion brewed from dried rosella petals with wild forest blackberries.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <button class="add-to-order-btn" data-name="Black Rosella Infused Brew" data-price="30000" type="button">
+                  <span class="material-symbols-outlined">add</span>
+                  <span>Add</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Salted Caramel Mocha Frappé (wide) -->
+          <article class="menu-card menu-card-featured menu-card-wide">
+            <div class="menu-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6o6hSZeFrHd1rdE7M8wEWOxHXe-v2zwdZmxd678_cnTkSP_FuZX7wWwuGlM_JFPHBCmJqpkrN7mMCvtXxkdORZsNUycf24uU5de6jneWeF02pKzSSih7c59262PytP5-XLLNCO44aRJ7ejdw--WhjaWbPgE6nuhe-rnlZ9DnQT7io4ujnalGfE_RhGQj9hUhnJUQAJsMht0Vvo2cXXNwn0LloloPTkEtikDLxlKk" alt="Salted Caramel Mocha Frappé">
+            </div>
+            <div class="menu-card-body">
+              <div>
+                <h3 class="menu-card-title">Salted Caramel Mocha Frappé</h3>
+                <div class="price-tag">Rp 35.000</div>
+                <p class="menu-card-desc">
+                  Espresso blended with artisanal caramel syrup, dark cocoa nibs, and gold-dusted whipped cream.
+                </p>
+              </div>
+              <div class="menu-card-footer">
+                <button class="add-to-order-btn" data-name="Salted Caramel Mocha Frappé" data-price="35000" type="button">
+                  <span class="material-symbols-outlined">add_shopping_cart</span>
+                  <span>Add to Order</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Divider -->
+      <div class="section-divider-with-label">
+       <div class="divider-line"></div>
+       <div class="divider-label"></div>
+        <span class="material-symbols-outlined">local_cafe</span>
+        <span>Chef's Tasting Sets</span>
+      </div> 
+    </div>
+
+      <!-- ============ CHEF'S TASTING SETS ============ -->
+      <section class="menu-section" data-category="sets" id="category-sets">
+        <div class="tasting-set-banner">
+          <div class="tasting-set-inner">
+            <div class="tasting-set-content">
+              <span class="tasting-set-badge">
+                <span class="material-symbols-outlined">dinner_dining</span>
+                Seasonal Menu Tasting Experience
+              </span>
+              <h2 class="tasting-set-title">The Gilded Amber</h2>
+              <p class="tasting-set-desc">
+                Experience our seasonal extraordinary menu: Warm Roasted Chestnut & Mascarpone Brioche paired seamlessly with the Velvet Maple Rooibos Elixir, served with silver tasting knives and a crisp white-tea palate cleanser
+              </p>
+              <div class="tasting-set-pricing">
+                <span class="tasting-set-price">Rp 399.000</span>
+                <span class="tasting-set-price-old">Rp 499.000 Regular</span>
+                <span class="tasting-set-save">Save 20%</span>
+              </div>
+            </div>
+            <div>
+              <button class="add-to-order-btn add-to-order-btn-lg" data-name="The Gilded Amber (Tasting Set)" data-price="399000" type="button">
+                <span class="material-symbols-outlined">room_service</span>
+                <span>Savor The Moment For Yourself</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ============ FLOATING ORDER DOCK ============ -->
+  <aside class="order-dock" id="order-dock">
+    <div class="order-dock-inner">
+      <div class="order-dock-left">
+        <div class="order-dock-cart">
+          <span class="material-symbols-outlined">shopping_bag</span>
+          <span class="order-dock-counter" id="dock-counter">0</span>
+        </div>
+        <div>
+          <div class="order-dock-label">
+            <span>Atelier Tray</span>
+            <span class="order-dock-preview" id="dock-item-preview">Ready for tasting</span>
+          </div>
+          <div class="order-dock-sub">Service charges included</div>
+        </div>
+      </div>
+      <div class="order-dock-right">
+        <div class="order-dock-total-wrap">
+          <span class="order-dock-total-label">Subtotal</span>
+          <span class="order-dock-total" id="dock-total">Rp 0</span>
+        </div>
+        <button class="btn btn-gold" id="open-drawer-btn" type="button">
+          <span>Review Order</span>
+          <span class="material-symbols-outlined" style="font-size:18px;">arrow_forward</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ ORDER REVIEW MODAL ============ -->
+  <div class="order-modal" id="order-modal">
+    <div class="order-modal-card" id="order-modal-card">
+      <div class="order-modal-header">
+        <div>
+          <h3 class="order-modal-title">Your Selected Tasting Tray</h3>
+          <p class="order-modal-sub">Review creations before atelier plating</p>
+        </div>
+        <button class="order-modal-close" id="close-modal-btn" type="button">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+
+      <div class="order-modal-list" id="modal-items-list"></div>
+
+      <div class="order-modal-footer">
+        <div class="order-modal-row">
+          <span>Subtotal</span>
+          <span id="modal-subtotal">Rp 0</span>
+        </div>
+        <div class="order-modal-row order-modal-row-muted">
+          <span>Table &amp; Silverware Service (8%)</span>
+          <span>Complimentary</span>
+        </div>
+        <div class="order-modal-row order-modal-row-total">
+          <span>Total</span>
+          <span id="modal-total">Rp 0</span>
+        </div>
+        <button class="btn btn-primary btn-block" id="confirm-order-btn" type="button">
+          <span class="material-symbols-outlined" style="font-size:20px;">task_alt</span>
+          <span>Send Order to Pentastry</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <span class="material-symbols-outlined">bakery_dining</span>
+            <span class="footer-brand-name">Pentastry</span>
+          </div>
+          <p class="footer-desc">An experiential pastry atelier with certified expert barista. Elevating dessert to a fine artform.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Atelier Hours</h4>
+          <p class="footer-text">Monday – Sunday</p>
+          <p class="footer-strong">10:00 – 22:00 Daily</p>
+          <p class="footer-caption">Tasting sessions by curated reservation.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Location</h4>
+          <p class="footer-text">Paris, Saint-Germain-des-Prés 12190<br>Indonesia</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Follow the Craft</h4>
+          <p class="footer-text">Explore our visual collections &amp; season releases.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><span class="material-symbols-outlined">photo_camera</span></a>
+            <a href="#" aria-label="Email"><span class="material-symbols-outlined">alternate_email</span></a>
+            <a href="#" aria-label="Website"><span class="material-symbols-outlined">public</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p class="footer-caption">© 2026 Pentastry Atelier. Crafted with poetic precision.</p>
+        <div class="footer-links">
+          <a href="#" class="footer-caption">Privacy Policy</a>
+          <a href="#" class="footer-caption">Terms of Experience</a>
+          <a href="#" class="footer-caption">Patron Care</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ INTERACTIVE LOGIC ============ -->
+  <script>
+    (function () {
+      const state = { cart: {} };
+      const formatIDR = (val) => 'Rp ' + val.toLocaleString('id-ID');
+
+      const dock = document.getElementById('order-dock');
+      const dockCounter = document.getElementById('dock-counter');
+      const dockTotal = document.getElementById('dock-total');
+      const dockItemPreview = document.getElementById('dock-item-preview');
+      const modal = document.getElementById('order-modal');
+      const modalList = document.getElementById('modal-items-list');
+      const modalSubtotal = document.getElementById('modal-subtotal');
+      const modalTotal = document.getElementById('modal-total');
+      const openDrawerBtn = document.getElementById('open-drawer-btn');
+      const closeModalBtn = document.getElementById('close-modal-btn');
+      const confirmOrderBtn = document.getElementById('confirm-order-btn');
+
+      const renderModalList = () => {
+        modalList.innerHTML = '';
+        const items = Object.entries(state.cart);
+
+        if (items.length === 0) {
+          modalList.innerHTML = '<div class="order-modal-empty">Your tasting tray is empty.</div>';
+          return;
+        }
+
+        items.forEach(([name, item]) => {
+          const row = document.createElement('div');
+          row.className = 'order-item';
+          row.innerHTML = `
+            <div class="order-item-info">
+              <div class="order-item-name">${name}</div>
+              <div class="order-item-price">${formatIDR(item.price)} each</div>
+            </div>
+            <div class="order-item-qty">
+              <button class="qty-btn" data-action="dec" data-name="${name}">−</button>
+              <span class="order-item-qty-num">${item.qty}</span>
+              <button class="qty-btn" data-action="inc" data-name="${name}">+</button>
+            </div>
+          `;
+          modalList.appendChild(row);
+        });
+
+        modalList.querySelectorAll('.qty-btn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const action = e.currentTarget.getAttribute('data-action');
+            const targetName = e.currentTarget.getAttribute('data-name');
+            if (action === 'inc') {
+              state.cart[targetName].qty += 1;
+            } else if (action === 'dec') {
+              state.cart[targetName].qty -= 1;
+              if (state.cart[targetName].qty <= 0) delete state.cart[targetName];
+            }
+            updateCartUI();
+          });
+        });
+      };
+
+      const updateCartUI = () => {
+        const items = Object.entries(state.cart);
+        const totalCount = items.reduce((sum, [, item]) => sum + item.qty, 0);
+        const totalPrice = items.reduce((sum, [, item]) => sum + item.price * item.qty, 0);
+
+        dockCounter.textContent = totalCount;
+        dockTotal.textContent = formatIDR(totalPrice);
+        modalSubtotal.textContent = formatIDR(totalPrice);
+        modalTotal.textContent = formatIDR(totalPrice);
+
+        if (totalCount > 0) {
+          dock.classList.add('is-visible');
+          const last = items[items.length - 1];
+          dockItemPreview.textContent = `${last[0]} (${last[1].qty})`;
+        } else {
+          dock.classList.remove('is-visible');
+          closeModal();
+        }
+        renderModalList();
+      };
+
+      const openModal = () => modal.classList.add('is-open');
+      const closeModal = () => modal.classList.remove('is-open');
+
+      document.querySelectorAll('.add-to-order-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const current = e.currentTarget;
+          const name = current.getAttribute('data-name');
+          const price = parseInt(current.getAttribute('data-price'), 10);
+
+          if (!state.cart[name]) state.cart[name] = { price, qty: 1 };
+          else state.cart[name].qty += 1;
+
+          const originalHTML = current.innerHTML;
+          current.classList.add('is-added');
+          current.innerHTML = '<span class="material-symbols-outlined">check</span> Added';
+          setTimeout(() => {
+            current.classList.remove('is-added');
+            current.innerHTML = originalHTML;
+          }, 800);
+
+          updateCartUI();
+        });
+      });
+
+      // Filter buttons
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const sections = document.querySelectorAll('.menu-section[data-category]');
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const filter = btn.getAttribute('data-filter');
+          sections.forEach(sec => {
+            const cat = sec.getAttribute('data-category');
+            sec.classList.toggle('is-hidden', !(filter === 'all' || cat === filter));
+          });
+        });
+      });
+
+      openDrawerBtn.addEventListener('click', openModal);
+      closeModalBtn.addEventListener('click', closeModal);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      confirmOrderBtn.addEventListener('click', () => {
+        alert('Thank you! Your order has been placed with the Pentastry pâtisserie kitchen.');
+        state.cart = {};
+        updateCartUI();
+        closeModal();
+      });
+    })();
+  </script>
+
+</body>
+</html>
